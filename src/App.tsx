@@ -1,8 +1,8 @@
+import Cardapio from "./pages/Cardapio";
+
 function App() {
   return (
-    <div >
-App
-    </div>
+    <Cardapio/>
   );
 }
 
