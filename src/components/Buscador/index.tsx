@@ -6,7 +6,15 @@ interface Props {
 }
 
 function Buscador({ busca, setBusca }: Props) {
-  return <div>Buscador</div>;
+  return (
+    <div className={styles.buscador}>
+      <input
+        type='text'
+        value={busca}
+        onChange={(e) => setBusca(e.target.value)}
+      />
+    </div>
+  );
 }
 
 export default Buscador;
