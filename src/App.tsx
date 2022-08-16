@@ -1,4 +1,5 @@
-import Cardapio from "./pages/Cardapio";
+import Cardapio from "components/Cardapio";
+
 
 function App() {
   return (
