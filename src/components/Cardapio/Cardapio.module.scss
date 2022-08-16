@@ -1,7 +1,7 @@
 @import 'styles/variaveis';
 
 .menu{
-    padding: $padding-header;
+    padding: $padding-padrao;
 }
 
 .header{
@@ -11,7 +11,7 @@
     height: 300px;
     display: flex;
     align-items: center;
-    padding: $padding-header;
+    padding: $padding-padrao;
     &__text{
         color: white;
         font-size: 5rem;
