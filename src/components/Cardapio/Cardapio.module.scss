@@ -1,21 +1,58 @@
-@import 'styles/variaveis';
+@import "styles/variaveis";
+@import "styles/breakpoints";
 
-.menu{
-    padding: $padding-padrao;
+.menu {
+  padding: 20px $padding-horizontal;
+  @media (max-width: $desktop_xsm) {
+    padding: 20px $padding-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 20px $padding-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 20px $padding-md;
+  }
 }
 
-.header{
-    background-image: url('../../assets/header.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    padding: $padding-padrao;
-    &__text{
-        color: white;
-        font-size: 5rem;
-        min-width: 400px;
-        width: 40%;
-    }
+.header {
+  align-items: center;
+  background-image: url("../../assets/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 300px;
+  padding: $padding-padrao;
+  @media (max-width: $desktop_xsm) {
+    padding: 0px $padding-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 0px $padding-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 0px $padding-md;
+  }
+  &__text {
+    color: white;
+    font-size: 5rem;
+    min-width: 400px;
+    width: 40%;
+  }
+}
+
+.cardapio {
+  padding: 50px $padding-horizontal;
+  @media (max-width: $desktop_xsm) {
+    padding: 50px $padding-mobile;
+  }
+  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    padding: 50px $padding-sm;
+  }
+  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
+    padding: 50px $padding-md;
+  }
+  &__titulo {
+    color: $dark;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
 }

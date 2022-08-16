@@ -12,6 +12,7 @@ function Buscador({ busca, setBusca }: Props) {
         type='text'
         value={busca}
         onChange={(e) => setBusca(e.target.value)}
+        placeholder='busque sua receita'
       />
     </div>
   );
