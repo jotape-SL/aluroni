@@ -1,4 +1,5 @@
 import styles from 'components/Buscador/Buscador.module.scss';
+import { CgSearch } from 'react-icons/cg';
 
 interface Props {
   busca: string;
@@ -14,6 +15,7 @@ function Buscador({ busca, setBusca }: Props) {
         onChange={(e) => setBusca(e.target.value)}
         placeholder='busque sua receita'
       />
+      <CgSearch />
     </div>
   );
 }
