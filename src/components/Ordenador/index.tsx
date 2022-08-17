@@ -1,11 +1,17 @@
 import styles from './Ordenador.module.scss';
-import opcoes from '../Filtros/filtros.json';
+import opcoes from './opscoes.json';
 
 function Ordenador() {
   return (
-    <button>
-      <span></span>
-      <div></div>
+    <button className={styles.ordenador}>
+      <span>Ordenar Por</span>
+      <div className={styles.ordenador__options}>
+        {opcoes.map((opcao) => (
+          <div className={styles.ordenador__option} key={opcao.value}>
+            {opcao.nome}
+          </div>
+        ))}
+      </div>
     </button>
   );
 }
