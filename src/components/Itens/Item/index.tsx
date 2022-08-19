@@ -18,7 +18,13 @@ function Item(props: Props) {
           <p>{description}</p>
         </div>
         <div className={styles.item__tags}>
-          <div className={styles.item__tipo}>{category.label}</div>
+          <div
+            className={`
+              ${styles.item__tipo} 
+              ${styles[`item__tipo__${category.label.toLocaleLowerCase()}`]}`}
+          >
+            {category.label}
+          </div>
           <div className={styles.item__porcao}>{size}g</div>
           <div className={styles.item__qtdpessoas}>{`Serve ${serving} ${
             serving <= 1 ? 'pessoa' : 'pessoas'
