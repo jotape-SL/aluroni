@@ -1,22 +1,29 @@
 import logo from 'assets/logo.svg';
 import styles from './Item.module.scss';
+import cardapio from '../Itens.json';
 
-function Item() {
+type Props = typeof cardapio[0];
+
+function Item(props: Props) {
+  const { title, photo, category, description, id, price, serving, size } =
+    props;
   return (
     <div className={styles.item}>
       <div className={styles.item__imagem}>
-        <img src={logo} alt='' />
+        <img src={logo} alt={title} />
       </div>
       <div className={styles.item__descricao}>
         <div className={styles.item__titulo}>
-          <h2>Macarrao</h2>
-          <p>Descricao do macarrao</p>
+          <h2>{title}</h2>
+          <p>{description}</p>
         </div>
         <div className={styles.item__tags}>
-          <div className={styles.item__tipo}>massa</div>
-          <div className={styles.item__porcao}>500g</div>
-          <div className={styles.item__qtdpessoas}>serve 2 pessoas</div>
-          <div className={styles.item__valor}>R$ 50</div>
+          <div className={styles.item__tipo}>{category.label}</div>
+          <div className={styles.item__porcao}>{size}g</div>
+          <div className={styles.item__qtdpessoas}>{`Serve ${serving} ${
+            serving <= 1 ? 'pessoa' : 'pessoas'
+          }`}</div>
+          <div className={styles.item__valor}>R$ {price.toFixed(2)}</div>
         </div>
       </div>
     </div>

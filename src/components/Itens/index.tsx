@@ -8,7 +8,7 @@ function Itens() {
       {cardapio.map((item) => {
         return (
           <div className={styles.itens}>
-            <Item key={item.id} />
+            <Item key={item.id} {...item} />
           </div>
         );
       })}
