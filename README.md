@@ -44,9 +44,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## ✒️ Autores
 
 * João Pedro de Sousa Cruz - *Desenvolvedor* - [Jotape_SL](https://github.com/jotape-SL)
-* Aluraa - *Design e idealização*  
+* Alura - *Design e idealização*  
 
 
 ## 📄 Licença
 
 Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](https://github.com/jotape-SL/aluroni/blob/main/LICENSE) para detalhes.
+
+---
