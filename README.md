@@ -1,6 +1,6 @@
 # Aluroni
 
-Uma navBar simples e responsiva. Feito como treino de React.
+Um site de receitas Italinas, possibiltia 3 formas de filtragem(buscador, ordenador e por tipo), feito com React.
 
 ## 🚀 Como executar o projeto
 
