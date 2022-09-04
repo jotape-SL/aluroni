@@ -1,6 +1,13 @@
+
+<div align=center>
+
 # Aluroni
 
 Um site de receitas Italinas, possibiltia 3 formas de filtragem(buscador, ordenador e por tipo), feito com React.
+
+</div>
+
+![image](https://user-images.githubusercontent.com/102804110/188294289-920e0556-7be4-4043-8688-dad66624d3e7.png)
 
 ## 🚀 Como executar o projeto
 
@@ -40,6 +47,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
 - **[Sass](https://sass-lang.com/documentation/)**
 - **[TypeScript](https://www.typescriptlang.org/docs/)**
+- **[React](https://pt-br.reactjs.org/docs/getting-started.html)**
 
 ## ✒️ Autores
 
@@ -47,8 +55,3 @@ As seguintes ferramentas foram usadas na construção do projeto:
 * Alura - *Design e idealização*  
 
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](https://github.com/jotape-SL/aluroni/blob/main/LICENSE) para detalhes.
-
----
