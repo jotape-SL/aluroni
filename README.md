@@ -35,7 +35,7 @@ $ npm start
 ```
 ## 🕸 Link para o site ``(Deploy feito pelo Vercel)``
 
-- **[Em Breve](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)**
+- **[Aluroni](https://aluroni-ochre.vercel.app/)**
 
 
 ## 🛠 Tecnologias
